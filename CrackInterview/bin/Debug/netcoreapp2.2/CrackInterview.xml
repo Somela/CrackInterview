@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CrackInterview</name>
+    </assembly>
+    <members>
+        <member name="P:CrackInterview.Startup.Configuration">
+            <summary>
+            Interface for Configuration
+            </summary>
+        </member>
+        <member name="M:CrackInterview.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor for Startup
+            </summary>
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.ConfigureSwaggerGenOptions">
+            <inheritdoc />
+            <summary>
+            Implementation of IConfigureOptions&lt;SwaggerGenOptions&gt;
+            </summary>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ConfigureSwaggerGenOptions.#ctor(Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider,Microsoft.Extensions.Options.IOptions{CrackInterview.Utility.Swagger.SwaggerSettings})">
+            <summary>
+            Initializes a new instance of the <see cref="T:CrackInterview.Utility.Swagger.ConfigureSwaggerGenOptions"/> class.
+            </summary>
+            <param name="versionDescriptionProvider">IApiVersionDescriptionProvider</param>
+            <param name="swaggerSettings">App Settings for Swagger</param>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ConfigureSwaggerGenOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.ConfigureSwaggerOptions">
+            <inheritdoc />
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ConfigureSwaggerOptions.#ctor(Microsoft.Extensions.Options.IOptions{CrackInterview.Utility.Swagger.SwaggerSettings})">
+            <inheritdoc />
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ConfigureSwaggerOptions.Configure(Swashbuckle.AspNetCore.Swagger.SwaggerOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.ConfigureSwaggerUiOptions">
+            <inheritdoc cref="T:Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions"/>>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ConfigureSwaggerUiOptions.#ctor(Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider,Microsoft.Extensions.Options.IOptions{CrackInterview.Utility.Swagger.SwaggerSettings})">
+            <inheritdoc />
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ConfigureSwaggerUiOptions.Configure(Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions)">
+            <summary>
+            Configure
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.MiddlewareExtensions">
+            <summary>
+            Extending Swagger services
+            </summary>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.MiddlewareExtensions.UseSwaggerDocuments(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Enabling Swagger UI.
+            Excluding from test environment
+            </summary>
+            <param name="app">IApplicationBuilder</param>
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.ServicesExtensions">
+            <summary>
+            Service Collection(IServiceCollection) Extensions
+            </summary>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ServicesExtensions.AddApiVersionWithExplorer(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add AddVersionedApiExplorer and AddApiVersioning middlewares
+            </summary>
+            <param name="services"></param>
+            <returns>IServiceCollection</returns>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.ServicesExtensions.AddSwaggerOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add swagger services
+            </summary>
+            <param name="services"><see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>/></param>
+            <returns>IServiceCollection</returns>
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.SwaggerDefaultValues">
+            <summary>
+            Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
+            </summary>
+            <remarks>This <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter"/> is only required due to bugs in the <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator"/>.
+            Once they are fixed and published, this class can be removed.</remarks>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.SwaggerDefaultValues.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Applies the filter to the specified operation using the given context.
+            </summary>
+            <param name="operation">The operation to apply the filter to.</param>
+            <param name="context">The current operation filter context.</param>
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.SwaggerSettings">
+            <summary>
+            Swagger Configuration
+            </summary>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.SwaggerSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CrackInterview.Utility.Swagger.SwaggerSettings"/> class.
+            </summary>
+        </member>
+        <member name="P:CrackInterview.Utility.Swagger.SwaggerSettings.Name">
+            <summary>
+            Gets or sets document Name.
+            </summary>
+        </member>
+        <member name="P:CrackInterview.Utility.Swagger.SwaggerSettings.Info">
+            <summary>
+            Gets or sets swagger Info.
+            </summary>
+        </member>
+        <member name="P:CrackInterview.Utility.Swagger.SwaggerSettings.RoutePrefix">
+            <summary>
+            Gets or sets RoutePrefix.
+            </summary>
+        </member>
+        <member name="P:CrackInterview.Utility.Swagger.SwaggerSettings.RoutePrefixWithSlash">
+            <summary>
+            Gets Route Prefix with tailing slash.
+            </summary>
+        </member>
+        <member name="T:CrackInterview.Utility.Swagger.YamlDocumentFilter">
+            <summary>
+            To use YAML serializer to generate YAML
+            </summary>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.YamlDocumentFilter.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CrackInterview.Utility.Swagger.YamlDocumentFilter"/> class.
+            </summary>
+            <param name="hostingEnvironment">IHostingEnvironment</param>
+        </member>
+        <member name="M:CrackInterview.Utility.Swagger.YamlDocumentFilter.Apply(Swashbuckle.AspNetCore.Swagger.SwaggerDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            Apply YAML Serializer
+            </summary>
+            <param name="swaggerDoc">SwaggerDocument</param>
+            <param name="context">DocumentFilterContext</param>
+        </member>
+    </members>
+</doc>

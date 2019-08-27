@@ -1,0 +1,17 @@
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\appsettings.Development.json
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\appsettings.json
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.deps.json
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.runtimeconfig.json
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.runtimeconfig.dev.json
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.dll
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.csprojAssemblyReference.cache
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.csproj.CoreCompileInputs.cache
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.RazorAssemblyInfo.cache
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.RazorAssemblyInfo.cs
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.AssemblyInfoInputs.cache
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.AssemblyInfo.cs
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.RazorTargetAssemblyInfo.cache
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.pdb
+F:\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.xml
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.dll
+F:\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.pdb
