@@ -1,0 +1,7 @@
+Create table Register(Id int not null identity(1,1),Email nvarchar(50) primary key,Password nvarchar(50),Mobile nvarchar(10),
+FirstName nvarchar(50),MiddleName nvarchar(50),LastName nvarchar(50),SecurityQuestion1 nvarchar(max),SecurityAnswer1 nvarchar(max),
+SecurityQuestion2 nvarchar(max),SecurityAnswer2 nvarchar(max),SecurityQuestion3 nvarchar(max),SecurityAnswer3 nvarchar(max),
+)
+create table Companies(Id int not null primary key,CompanyName nvarchar(100))
+
+Create table Questions(Id int not null primary key,CompanyID int,Questions nvarchar(max)) 
