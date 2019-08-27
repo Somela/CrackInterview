@@ -29,21 +29,13 @@ namespace CrackInterview.Controllers
             var responseCode = _databaseAccess.RegisterInsertData(registerRequest);
             return StatusCode(responseCode.Result.statusCode, responseCode.Result.Message);
         }
-        [HttpPost("ForgetPassword")]
-        public async Task<IActionResult> Forget(
-           [FromBody] ForgetRequest  forgetPasswordRequest)
-        {
-
-            var dataTable = _databaseAccess.ForgetPasswordInsertData(forgetPasswordRequest);
-            return StatusCode(200, dataTable);
-        }
         [HttpPut("ForgetPasswordUpdate")]
         public async Task<IActionResult> ForgetUpdate(
            [FromBody] ForgetRequestUpdate forgetRequestUpdate)
         {
-
-            var dataTable = _databaseAccess.ForgetPasswordUpdate(forgetRequestUpdate);
-            return StatusCode(200, dataTable);
+            ForgetResponse response= new ForgetResponse();
+            response = await _databaseAccess.ForgetPasswordUpdate(forgetRequestUpdate);
+            return StatusCode(200, response);
         }
     }
 }

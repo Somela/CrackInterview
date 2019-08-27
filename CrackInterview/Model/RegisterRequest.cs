@@ -14,14 +14,17 @@ namespace CrackInterview.Model
         public long Mobile { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string FirstName { get; set; }
-        public string LastName { get; set; }
         public string MiddleName { get; set; }
+        public string LastName { get; set; }
+        public SecurityQuestions securityQuestions { get; set; }
+    }
+    public class SecurityQuestions
+    {
         public string securityQuestion1 { get; set; }
         public string securityAnswer1 { get; set; }
         public string securityQuestion2 { get; set; }
-        public string securityAnswer2
-        {
-            get; set;
-        }
+        public string securityAnswer2 { get; set; }
+        public string securityQuestion3 { get; set; }
+        public string securityAnswer3 { get; set; }
     }
 }

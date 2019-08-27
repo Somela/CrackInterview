@@ -20,7 +20,6 @@ namespace CrackInterview
             {
                 Configuration = new ConfigurationBuilder()
        .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Development"}.json", reloadOnChange: true, optional: false)
-       .AddJsonFile($"AppIdUserIdTranslation.json", optional: true, reloadOnChange: true)
        .Build();
                 Log.Logger = new LoggerConfiguration()
         .ReadFrom.Configuration(Configuration)
