@@ -7,6 +7,6 @@ namespace CrackInterview.Model
 {
     public class Companies
     {
-        public string Companys { get; set; }
+        public string Company { get; set; }
     }
 }

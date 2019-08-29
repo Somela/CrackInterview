@@ -43,6 +43,7 @@ namespace CrackInterview
             services.AddTransient<IDatabaseAccess, DatabaseAccess>();
             services.AddTransient<IDatabaseAccesReuseable, DatabaseAccesReuseable>();
             services.AddScoped<IUserService, UserService>();
+            services.AddTransient<IHomeDataAccess, HomeDataAccess>();
             services.AddSingleton<IConfiguration>(Configuration);
             #endregion DataAccess
 

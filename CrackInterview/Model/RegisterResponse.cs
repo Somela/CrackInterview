@@ -10,4 +10,5 @@ namespace CrackInterview.Model
         public string Message { get; set; }
         public int statusCode { get; set; }
     }
+
 }

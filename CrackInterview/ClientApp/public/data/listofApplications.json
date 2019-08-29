@@ -1,0 +1,25 @@
+{
+
+  "applications":[
+    { "name": "AWD_CEP_Phase4_Verus" },
+    { "name": "EMessage_Batch_Image" },
+    { "name": "BackgroundCheckFADV" },
+    { "name": "AWD_CEP_Charger_GoForward" },
+    { "name": "Encorr_Inforce" },
+    { "name": "ARF_Email_History" },
+    { "name": "RiskRighter_Receives_APS_Summaries" },
+    { "name": "Exams" },
+    { "name": "ImageAndDataPom_NS" },
+    { "name": "AWDRouting" },
+    { "name": "LicenseContracting_NS" },
+    { "name": "AWDComment_ALIP" },
+    { "name": "AIG_AWD_EDELIVERYBATCH" },
+    { "name": "QuickQuote_Email_Pull" },
+    { "name": "AWD_CEP_Scan_Automation" },
+    { "name": "EMessage_Batch_Policy" },
+    { "name": "AWD_Extracting_APS_Documents" },
+    { "name": "QuickQuote_Email_UW_Process" },
+    { "name": "EMSI_IRS_Tax_Return" },
+    { "name": "AWDComment_CBY" }
+  ]
+}
