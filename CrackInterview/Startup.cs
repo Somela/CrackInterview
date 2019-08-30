@@ -44,6 +44,9 @@ namespace CrackInterview
             services.AddTransient<IDatabaseAccesReuseable, DatabaseAccesReuseable>();
             services.AddScoped<IUserService, UserService>();
             services.AddTransient<IHomeDataAccess, HomeDataAccess>();
+            services.AddTransient<IProxiedTwilioClientCreator, ProxiedTwilioClientCreator>();
+            services.AddTransient<IEmailDataAccess, OtpResponseClass>();
+            services.AddTransient<IMobileDataAccess, OtpResponseClass>();
             services.AddSingleton<IConfiguration>(Configuration);
             #endregion DataAccess
 
@@ -99,7 +102,7 @@ namespace CrackInterview
                         var swaggerUrl = string.Format(swaggerJsonPath, description.GroupName);
                         var swaggerVersion = description.GroupName.ToUpperInvariant();
                         Log.Information("Swagger Json Path : " + swaggerVersion + " - " + swaggerUrl);
-                        options.SwaggerEndpoint(swaggerUrl, "CrackInterview.WISE.AIGSS - " + swaggerVersion);
+                        options.SwaggerEndpoint(swaggerUrl, "CrackInterview.By.Somela - " + swaggerVersion);
                     }
                 });
             app.UseSwaggerDocuments();

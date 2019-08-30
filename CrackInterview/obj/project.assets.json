@@ -4993,6 +4993,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Twilio/5.31.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Collections.Specialized": "4.3.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Twilio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Twilio.dll": {}
+        }
+      },
       "YamlDotNet.NetCore/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -13313,6 +13328,25 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Twilio/5.31.4": {
+      "sha512": "DERegb1vgu6AzjmAbMFed6AFmFi8i1bDhRrbhLqjpUMNqUFWZKGunGOMJQm9yeB+EHPdlHEMYsjO9Kdz3AyfXA==",
+      "type": "package",
+      "path": "twilio/5.31.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Twilio.dll",
+        "lib/net35/Twilio.xml",
+        "lib/net451/Twilio.dll",
+        "lib/net451/Twilio.xml",
+        "lib/netstandard1.4/Twilio.dll",
+        "lib/netstandard1.4/Twilio.xml",
+        "lib/netstandard2.0/Twilio.dll",
+        "lib/netstandard2.0/Twilio.xml",
+        "twilio.5.31.4.nupkg.sha512",
+        "twilio.nuspec"
+      ]
+    },
     "YamlDotNet.NetCore/1.0.0": {
       "sha512": "vPiKF4Yf02MS96Nzwcr8+WrvlhTx+camOgUzxhazU0hCzs2ESetWDCxaIT/MYdAw2oONYem1ow9PXWJjHkRUDw==",
       "type": "package",
@@ -13353,6 +13387,7 @@
       "Swashbuckle.AspNetCore.Swagger >= 4.0.1",
       "Swashbuckle.AspNetCore.SwaggerUI >= 4.0.1",
       "System.Data.DataSetExtensions >= 4.5.0",
+      "Twilio >= 5.31.4",
       "YamlDotNet.NetCore >= 1.0.0"
     ]
   },
@@ -13501,6 +13536,10 @@
           "System.Data.DataSetExtensions": {
             "target": "Package",
             "version": "[4.5.0, )"
+          },
+          "Twilio": {
+            "target": "Package",
+            "version": "[5.31.4, )"
           },
           "YamlDotNet.NetCore": {
             "target": "Package",

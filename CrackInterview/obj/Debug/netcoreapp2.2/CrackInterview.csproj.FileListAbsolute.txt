@@ -23,7 +23,6 @@ C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp
 C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.dll
 C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.pdb
 C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\bin\Debug\netcoreapp2.2\CrackInterview.xml
-C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.csprojAssemblyReference.cache
 C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.csproj.CoreCompileInputs.cache
 C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.RazorAssemblyInfo.cache
 C:\Sanjay\Code\CrackInterview\CrackInterview\CrackInterview\obj\Debug\netcoreapp2.2\CrackInterview.RazorAssemblyInfo.cs

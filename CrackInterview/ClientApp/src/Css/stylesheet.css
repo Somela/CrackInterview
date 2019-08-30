@@ -1,0 +1,12 @@
+.navload {
+    background-color: #dc7935
+}
+.container{
+    margin-left: 0;
+}
+.title{
+    color: gold;
+}
+.title:hover{
+    color: blue;
+}
