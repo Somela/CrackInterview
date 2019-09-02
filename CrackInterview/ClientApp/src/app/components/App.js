@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import Header from './header';
+// import ApplicationName from './applicationname';
 import "../../Css/stylesheet.css";
+// import Home from './home';
+// import Contact from './contact';
+import Login from './Login';
 
 export default class App extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Login/>
             </div>
         );
     }

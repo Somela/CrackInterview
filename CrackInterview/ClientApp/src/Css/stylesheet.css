@@ -10,3 +10,101 @@
 .title:hover{
     color: blue;
 }
+#imgAppName{
+    height: 60px;
+    width: 80%;
+}
+.main{
+    
+    width: 100%;
+    padding: 1rem;
+}
+
+.main-inner {
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    font-family: fantasy;
+    color: darkcyan;
+}
+#contact-us{
+    padding: 50px 20px;
+    position: relative;
+    background:none;
+    color:black 
+}
+#contact-us .wrap .pannel-left {
+    display: inline-block;
+    padding-right: 10%;
+    vertical-align: top;
+    width: 70%;
+    line-height: 1.5;
+    text-align: left;
+}
+#contact-us .wrap .pannel-left h3 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+    font-weight: 500;
+}
+#contact-us .wrap .pannel-left p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0,0,0,.9);;
+}
+#contact-us .contact-form {
+    margin-top: 30px;
+}
+.card{
+    background-color:transparent;
+    border:none;
+}
+.text{
+    width: 80%;
+    margin: 10px;
+}
+#contact-us .contact-form .contact-form-field {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    outline: 0;
+    width: 80%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+input, textarea {
+    font: 13px Roboto,sans-serif;
+}
+#contact-us .contact-form .submit-btn {
+    font-size: 16px;
+    padding: 15px 50px;
+}
+.button.v-pixpa-blue {
+    background: #ff4a64;
+    color: #fff;
+}
+.margin-t25 {
+    margin-top: 25px;
+}
+#contact-us .wrap .pannel-right h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: deepskyblue;
+    margin: 0 0 15px;
+}
+#contact-us .wrap .pannel-right {
+    text-align: left;
+    display: inline-block;
+    width: 25%;
+    line-height: 1.5;
+    top: 50%;
+    position: absolute;
+    
+}
+.card-footer{
+    border-top:none;
+    background-color:rgba(0, 0, 0, 0);
+}
+.textMail{
+    color: #351d1f;
+}
